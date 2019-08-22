@@ -1,0 +1,9 @@
+### Train the base model using pre-trained COCO weights(I ran using these weights,Download 'mask_rcnn_coco.h5' weights before starting the training)
+## worked at my ubuntu msi laptop with nvidia gpu
+python3 custom_1.py train --dataset='/home/nasir/Desktop/carcnn/car-damage-detection-using-CNN/custom/' --weights=coco
+
+### Train the base model using pre-trained imagenet weights(for this to download imagenet weights))
+python3 custom_1.py train --dataset='/home/nasir/Desktop/carcnn/car-damage-detection-using-CNN/custom/' --weights=imagenet
+
+## We can even resume from the latest saved callback(latest saved weights)
+python3 custom.py train --dataset='/home/nasir/Desktop/carcnn/car-damage-detection-using-CNN/custom/' --weights=last

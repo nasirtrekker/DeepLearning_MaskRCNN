@@ -38,7 +38,7 @@ from mrcnn.visualize import display_instances
 import matplotlib.pyplot as plt
 
 # Root directory of the project
-ROOT_DIR = 'C:/Users/Sourish/Mask_RCNN/'
+ROOT_DIR = 'path'
 
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
